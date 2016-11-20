@@ -4,7 +4,7 @@ This Github Page contains the modification for Civilization 6.
 
 Short Information About Current Mods:
 
- * Lighting Fast Mod => Increased game speed.
+ * Lighting Snail Fast Mod => Game Speed Adjustments
  * More to come .. :)
 
 For more information, please read the readme file in related directory.
