@@ -1,11 +1,11 @@
 # Lighting Snail Speed Mod
 
 ## List of Contents
- ### [Introduction](#Introduction)
- ### [How To Install](#How-to-Install)
- ### [How to Create Own Speed Option](#How-to-Create-Own-Speed-Option)
- ### [Known Issues](#Known-Issues)
- ### [FAQ](#FAQ)
+ 1. [Introduction](#Introduction)
+ 2. [How To Install](#How-to-Install)
+ 3. [How to Create Own Speed Option](#How-to-Create-Own-Speed-Option)
+ 4. [Known Issues](#Known-Issues)
+ 5. [FAQ](#FAQ)
 
 ## <h2 id="Introduction">Introduction</h2>
 
