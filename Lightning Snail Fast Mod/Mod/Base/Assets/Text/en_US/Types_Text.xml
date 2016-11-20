@@ -906,8 +906,8 @@
 		<Row Tag="LOC_GAMESPEED_QUICK_NAME">
 			<Text>Quick</Text>
 		</Row>
-		<Row Tag="LOC_GAMESPEED_LIGHTING_NAME">
-			<Text>Lighting</Text>
+		<Row Tag="LOC_GAMESPEED_LIGHTNING_NAME">
+			<Text>Lightning</Text>
 		</Row>
 		<Row Tag="LOC_GAMESPEED_ONLINE_NAME">
 			<Text>Online</Text>

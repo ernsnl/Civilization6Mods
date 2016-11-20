@@ -1,4 +1,4 @@
-# Lighting Snail Speed Mod
+# Lightning Snail Speed Mod
 
 ## List of Contents
  1. [Introduction](#Introduction)
@@ -26,7 +26,7 @@ For that purpose, I added two different speed option. One is making the game run
 | Game Speed | Cost  Multiplier | Ancient  | Classical | Medieval | Renaissance | Industrial | Modern | Atomic | Information|
 | :--------: | :--------------- | :------- |:--------- |:-------- |:----------- | :--------- | :----- | :----- | :--------- |
 | Snail      | 500              | 50/250   | 75/450    |  40/220  | 12/320      | 8/180      | 3/500  | 2/360  | 1/300      |
-| Lighting   | 25               | 1920/18  | 1200/15   |  960/10  | 480/15      | 240/15     | 96/12  | 48/30  | 24/60      |
+| Lightning   | 25               | 1920/18  | 1200/15   |  960/10  | 480/15      | 240/15     | 96/12  | 48/30  | 24/60      |
 
 ## <h2 id="How-to-Install">How to Install</h2>
 

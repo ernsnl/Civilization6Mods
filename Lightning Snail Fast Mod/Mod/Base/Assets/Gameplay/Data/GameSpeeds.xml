@@ -11,7 +11,7 @@
 		<Row Type="GAMESPEED_STANDARD" Kind="KIND_GAMESPEED"/>
 		<Row Type="GAMESPEED_QUICK" Kind="KIND_GAMESPEED"/>
 		<Row Type="GAMESPEED_ONLINE" Kind="KIND_GAMESPEED"/>
-		<Row Type="GAMESPEED_LIGHTING" Kind="KIND_GAMESPEED"/>
+		<Row Type="GAMESPEED_LIGHTNING" Kind="KIND_GAMESPEED"/>
 	</Types>
 	<GameSpeeds>
 		<Row>
@@ -318,42 +318,42 @@
 		</Row>
 
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
 			<MonthIncrement>1920</MonthIncrement>
 			<TurnsPerIncrement>18</TurnsPerIncrement>
 		</Row>
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
 			<MonthIncrement>1200</MonthIncrement>
 			<TurnsPerIncrement>15</TurnsPerIncrement>
 		</Row>
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
 			<MonthIncrement>960</MonthIncrement>
 			<TurnsPerIncrement>10</TurnsPerIncrement>
 		</Row>
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
 			<MonthIncrement>480</MonthIncrement>
 			<TurnsPerIncrement>15</TurnsPerIncrement>
 		</Row>
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
 			<MonthIncrement>240</MonthIncrement>
 			<TurnsPerIncrement>15</TurnsPerIncrement>
 		</Row>
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
 			<MonthIncrement>96</MonthIncrement>
 			<TurnsPerIncrement>12</TurnsPerIncrement>
 		</Row>
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
 			<MonthIncrement>48</MonthIncrement>
 			<TurnsPerIncrement>30</TurnsPerIncrement>
 		</Row>
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
 			<MonthIncrement>24</MonthIncrement>
 			<TurnsPerIncrement>60</TurnsPerIncrement>
 		</Row>
