@@ -1112,7 +1112,7 @@
 			<Text>Quick game (33% faster).</Text>
 		</Row>
 		<Row Tag="LOC_GAMESPEED_LIGHTNING_HELP">
-			<Text>Lightning fast game (50% faster than Online Speed).</Text>
+			<Text>Lightning fast game (75% faster than Standard Speed).</Text>
 		</Row>
 		<Row Tag="LOC_GAMESPEED_ONLINE_HELP">
 			<Text>Double-speed game used for online multiplayer.</Text>
