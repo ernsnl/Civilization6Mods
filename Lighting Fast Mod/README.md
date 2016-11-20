@@ -49,9 +49,9 @@ So, you want to customize your speed option. First of all, backup your Civilizat
   1. In this file, there is a GameSpeeds tag and under that tag, there are familiar game speed options.
   2. To add your custom speed option, please select a name like GandhiNukesMuchFaster. Important note: Selected name must be unique.
   3. Copy given the row and paste it under the GameSpeeds tag .
-   '''xml
+   ```xml
    <Row GameSpeedType="GAMESPEED_%YOUR_OPTION%" Name="LOC_GAMESPEED_%YOUR_OPTION%_NAME" Description="LOC_GAMESPEED_%YOUR_OPTION%_HELP" SortIndex="%YOUR_OPTION_LOCATION%" />
-   '''
+   ```
   4. Change %YOUR_OPTION% with custom game speed name.
   5. Order for the custom game speed option. Insert any number that is bigger 0.
     1. For much more refined ordering of the game speed options, remember that Higher values means option will be presented at the top of the list. Vice versa.
@@ -60,34 +60,34 @@ So, you want to customize your speed option. First of all, backup your Civilizat
     1. This file is responsible for tooltip of the setting.
     2. Please locate "Game Speed Descriptions"
     3. Add the following after "Game Speed Descriptions"
-    '''xml
+    ```xml
     <Row Tag="LOC_GAMESPEED_%YOUR_OPTION%_HELP">
 			<Text>%EXPLAIN_YOUR_SPEED%</Text>
 		</Row>
-    '''
+    ```
     4. Change %YOUR_OPTION% with custom game speed name.
     5. Change %EXPLAIN_YOUR_SPEED% with short description of the game speed.
 5. Open Types_Text.xml
   1. This file is responsible for name of the game speed settings and more.
   2. Please locate "Game Speeds".
   3. Add the following after "Game Speeds"
-  '''xml
+  ```xml
   <Row Tag="LOC_GAMESPEED_%YOUR_OPTION%_NAME">
 			<Text>%YOUR_OPTION%</Text>
 		</Row>
-  '''
+  ```
   4. Change %YOUR_OPTION% with custom game speed name.
 6. Open the GameSpeeds.xml (GamePlay/Data)
    1. This file is responsible for how the game speed setting will play out through ages.
    2. Please locate the "Types" tag.
    3. Add the following into Types Tag.
-   '''xml
+   ```xml
    	<Row Type="GAMESPEED_%YOUR_OPTION%" Kind="KIND_GAMESPEED"/>
-   '''
+   ```
    4. Change %YOUR_OPTION% with custom game speed name.
    5. Please locate GameSpeed tag.
    6. Add the following to the GameSpeeds tag.
-   '''xml
+   ```xml
    <Row>
 			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
 			<Name>LOC_GAMESPEED_%YOUR_OPTION%_NAME</Name>
@@ -97,7 +97,7 @@ So, you want to customize your speed option. First of all, backup your Civilizat
 			<CivicUnlockPerTurnDrop>%YOUR_OPTION_CIVIC_DROP_RATE%</CivicUnlockPerTurnDrop>
 			<CivicUnlockMinCost>%YOUR_OPTION_CIVIC_MIN_COST%</CivicUnlockMinCost>
 		</Row>
-    '''
+    ```
     7. Change %YOUR_OPTION% with custom game speed name.
     8. Change %YOUR_OPTION_COST% with any number that is bigger than 1.
      1. Note that, When the number becomes large, game speed will decrease. Vice versa.
@@ -108,4 +108,51 @@ So, you want to customize your speed option. First of all, backup your Civilizat
     11. Change %YOUR_OPTION_CIVIC_DROP_RATE% with any number that is bigger than 1.
      1. Note: This represents amount of drop.
     12. Please locate the GameSpeed_Turns tag.
-    13.
+    13. Add the following to the GameSpeed_Turns tag.
+    ```xml
+    <Row>
+			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
+			<MonthIncrement>%ERA%</MonthIncrement>
+			<TurnsPerIncrement>%ERA%</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
+      <MonthIncrement>%ERA%</MonthIncrement>
+			<TurnsPerIncrement>%ERA%</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
+      <MonthIncrement>%ERA%</MonthIncrement>
+      <TurnsPerIncrement>%ERA%</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
+      <MonthIncrement>%ERA%</MonthIncrement>
+			<TurnsPerIncrement>%ERA%</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
+      <MonthIncrement>%ERA%</MonthIncrement>
+      <TurnsPerIncrement>%ERA%</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
+      <MonthIncrement>%ERA%</MonthIncrement>
+			<TurnsPerIncrement>%ERA%</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
+      <MonthIncrement>%ERA%</MonthIncrement>
+      <TurnsPerIncrement>%ERA%</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_%YOUR_OPTION%</GameSpeedType>
+      <MonthIncrement>%ERA%</MonthIncrement>
+			<TurnsPerIncrement>%ERA%</TurnsPerIncrement>
+		</Row>
+    ```
+    14. Change %YOUR_OPTION% with custom game speed name.
+    15. You might ask why there are seven same Row tag. Let me explain each of those row is represents an era. First row being the Ancient Era and last one being the Information Era.
+    16. For each era, please fill the %ERA% with a number bigger than 1.
+      1. According the initial files, when the game speed increases, MonthIncrement increases and TurnsPerIncremen decreases
+7. You are done. Enjoy your custom game speed setting.
