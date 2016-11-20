@@ -69,9 +69,9 @@
 			<CivicUnlockMinCost>10</CivicUnlockMinCost>
 		</Row>
 		<Row>
-			<GameSpeedType>GAMESPEED_LIGHTING</GameSpeedType>
-			<Name>LOC_GAMESPEED_LIGHTING_NAME</Name>
-			<Description>LOC_GAMESPEED_LIGHTING_HELP</Description>
+			<GameSpeedType>GAMESPEED_LIGHTNING</GameSpeedType>
+			<Name>LOC_GAMESPEED_LIGHTNING_NAME</Name>
+			<Description>LOC_GAMESPEED_LIGHTNING_HELP</Description>
 			<CostMultiplier>25</CostMultiplier>
 			<CivicUnlockMaxCost>25</CivicUnlockMaxCost>
 			<CivicUnlockPerTurnDrop>2</CivicUnlockPerTurnDrop>

@@ -21,7 +21,7 @@ Initial game speed options are somewhat limited in the new Civilization 6.
 
 These are given speed options of the Civilization game. As you can see when the cost multiplier decreased game becomes much faster. If you want to make much more faster or much more slower only have to do is change the value of the cost multiplier.
 
-For that purpose, I added two different speed option. One is making the game run much faster (Lighting), other one makes the run game much slower (Snail). For others who want to create their own speed version please click [here](#How-to-Create-Own-Speed-Option)
+For that purpose, I added two different speed option. One is making the game run much faster (Lightning), other one makes the run game much slower (Snail). For others who want to create their own speed version please click [here](#How-to-Create-Own-Speed-Option)
 
 | Game Speed | Cost  Multiplier | Ancient  | Classical | Medieval | Renaissance | Industrial | Modern | Atomic | Information|
 | :--------: | :--------------- | :------- |:--------- |:-------- |:----------- | :--------- | :----- | :----- | :--------- |

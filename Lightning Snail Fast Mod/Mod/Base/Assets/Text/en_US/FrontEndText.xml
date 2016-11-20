@@ -1111,7 +1111,7 @@
 		<Row Tag="LOC_GAMESPEED_QUICK_HELP">
 			<Text>Quick game (33% faster).</Text>
 		</Row>
-		<Row Tag="LOC_GAMESPEED_LIGHTING_HELP">
+		<Row Tag="LOC_GAMESPEED_LIGHTNING_HELP">
 			<Text>Lightning fast game (50% faster than Online Speed).</Text>
 		</Row>
 		<Row Tag="LOC_GAMESPEED_ONLINE_HELP">
