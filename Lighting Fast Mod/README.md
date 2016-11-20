@@ -171,13 +171,17 @@ Currently, there is no issue.
 ## <h2 id="FAQ">FAQ</h2>
 
 **Q:** Can I use that mod on multiplayer games?
+
 **A:** I don't know. I haven't tested yet. If someone will test, I appreciate it.
 
 **Q:** Your mod cause a problem. What are you planning to do?
+
 **A:** I am so sorry to hear that. Please create an issue in Github so I can keep track of the all the issues. Please explain what went wrong.
 
 **Q:** Hey! My custom setting is much better than yours.
+
 **A:** This is not a question but if you are thinking your setting is much cooler, I will put a link to your setting. So give your settings file.
 
 **Q:** Is this only for English?
+
 **A:** Currently :(. I will be updating as soon as possible.
