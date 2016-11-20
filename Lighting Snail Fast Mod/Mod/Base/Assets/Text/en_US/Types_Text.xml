@@ -892,7 +892,7 @@
 			<Text>Game Speed</Text>
 		</Row>
 		<Row Tag="LOC_GAMESPEED_SNAIL_NAME">
-			<Text>Marathon</Text>
+			<Text>Snail</Text>
 		</Row>
 		<Row Tag="LOC_GAMESPEED_MARATHON_NAME">
 			<Text>Marathon</Text>
